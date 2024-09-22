@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+section {
+    flex-grow: 1;
+}
+
+.no-lines {
+    text-decoration: none;
+}
+
+.carousel-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-caption.custom-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}  
+
+#bootsCarousel {
+    height: 500px;
+    overflow: hidden;
+}
+
+#bootsCarousel .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
